@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance Tracker</title>
+</head>
+<link rel="stylesheet" href="stylesheet.css">
+<body>
+    <div class="container">
+        <h1>Student Attendance Tracker</h1>
+        
+        <div class="date-display" id="currentDate"></div>
+        
+        <div class="actions">
+            <button id="prevDate">Previous Day</button>
+            <button id="nextDate">Next Day</button>
+            <button id="todayDate">Today</button>
+        </div>
+        
+        <div class="form-group">
+            <label for="studentName">Add New Student:</label>
+            <div style="display: flex; gap: 10px;">
+                <input type="text" id="studentName" placeholder="Enter student name">
+                <button id="addStudent">Add</button>
+            </div>
+        </div>
+        
+        <table id="attendanceTable">
+            <thead>
+                <tr>
+                    <th>Student</th>
+                    <th>Status</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentList">
+                <!-- Students will be added here dynamically -->
+            </tbody>
+        </table>
+        
+        <div class="attendance-summary" id="summary">
+            <!-- Summary will be updated dynamically -->
+        </div>
+    </div>
+    <script src="movement.js"></script>
+</body>
+</html>
