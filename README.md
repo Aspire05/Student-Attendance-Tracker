@@ -1,12 +1,12 @@
 # Student-Attendance-Tracker
        A sleek, responsive web application designed to track and manage student attendance with an intuitive user interface.
 
-Simple Student Management: Easily add new students to your class roster
-Daily Attendance Tracking: Mark students as present or absent with a single click
-Date Navigation: Navigate between days to view or update attendance records for specific dates
-Attendance Statistics: View real-time attendance summaries including present/absent counts and percentages
-Data Persistence: All data is stored locally in the browser, ensuring your records remain intact between sessions
-Responsive Design: Fully optimized for both desktop and mobile devices
+- Simple Student Management: Easily add new students to your class roster
+- Daily Attendance Tracking: Mark students as present or absent with a single click
+- Date Navigation: Navigate between days to view or update attendance records for specific dates
+- Attendance Statistics: View real-time attendance summaries including present/absent counts and percentages
+- Data Persistence: All data is stored locally in the browser, ensuring your records remain intact between sessions
+- Responsive Design: Fully optimized for both desktop and mobile devices
 
 Technical Implementation
 The application is built with:
